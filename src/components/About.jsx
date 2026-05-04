@@ -37,12 +37,12 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea
-        quaerat alias accusamus voluptas autem! Alias odit voluptates in totam
-        vitae dignissimos minus eaque culpa unde tempore dolore aperiam
-        obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde
-        veniam dolorum ipsum doloribus.
+        I'm a Software Developer and Researcher with an M.S. in Computer Science
+        from San Francisco State University and a background in Electrical
+        Engineering. I specialize in building scalable full-stack applications using
+        React, Node.js, Java, and Python, with hands-on research experience fine-tuning
+        transformer-based LLMs on HPC clusters. Passionate about creating impactful,
+        user-centric solutions.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
