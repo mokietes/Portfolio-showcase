@@ -32,11 +32,19 @@ const Contact = () => {
         import.meta.env.VITE_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         {
-          from_name: form.name,
-          to_name: 'Mekonnen', // put your name here.
-          from_email: form.email,
-          to_email: 'mekonnen.tesfamichael@gmail.com', //put your email here.
+          name: form.name,
+          email: form.email,
           message: form.message,
+          time: new Date().toLocaleString('en-US', {
+            weekday: 'long',
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric',
+            hour: '2-digit',
+            minute: '2-digit',
+            timeZoneName: 'short',
+            to_name: 'Mekonnen'
+          }),
         },
         import.meta.env.VITE_EMAILJS_PUBLIC_KEY //paste your Public Key here. You'll get it in your profile section.
       )
