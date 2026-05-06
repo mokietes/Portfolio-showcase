@@ -18,21 +18,39 @@ import {
   rubyrails,
   graphql,
   komikult,
+  python,
+  java,
+  springboot,
+  mongodb,
+  mysql,
+  aws,
+  kubernetes,
+  coverhunt,
+  microverse,
+  kelhel,
+  dcc,
+  filesystem,
   leaderboard,
   math,
   movie,
-  nyeusi,
-  space,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
-} from '../assets';
+  pytorch,
+  tensorflow,
+  linux,
+  jest,
+} from "../assets";
 
 export const navLinks = [
   {
-    id: 'about',
-    title: 'About',
+    id: "about",
+    title: "About",
+  },
+  {
+    id: "Tech",
+    title: "Skills",
+  },
+  {
+    id: "work",
+    title: "Experience",
   },
   {
     id: 'projects',
