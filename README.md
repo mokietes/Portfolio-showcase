@@ -36,3 +36,8 @@ After replacing an asset file, update the corresponding import in
 
 ---
 
+## License
+
+This project is based on the open-source Portfolio Template by Shaquille Ndunda,
+released under the MIT License. Modifications and content are by Mekonnen Tesfazien.
+See LICENSE for details.
