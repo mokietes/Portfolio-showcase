@@ -21,3 +21,18 @@ Live site: https://mokie-portfolio.netlify.app/
 
 ---
 
+### Replacing Assets
+
+| Asset | Location |
+|---|---|
+| Profile photo | src/assets/personal/ |
+| Company logos | src/assets/company/ |
+| Project screenshots | src/assets/projects/ |
+| Site logo | src/assets/logo/ |
+| Resume PDF | public/resume.pdf |
+
+After replacing an asset file, update the corresponding import in
+`src/assets/index.js` if the filename has changed.
+
+---
+
