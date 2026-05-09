@@ -21,6 +21,23 @@ Live site: https://mokie-portfolio.netlify.app/
 
 ---
 
+## Overview
+
+This portfolio serves as a central hub for showcasing work experience, technical
+projects, and contact information. The design prioritizes performance and clarity,
+with all content driven from a single constants file to make updates straightforward.
+
+Sections:
+
+- Hero — name, tagline, and personal photo
+- About — professional summary and service offerings
+- Technologies — interactive 3D ball canvas for each skill
+- Projects — expandable project cards with live demo and source links
+- Experience — vertical timeline of work history with resume download
+- Contact — EmailJS-powered form with real-time submission feedback
+
+---
+
 ## Customization Guide
 
 All site content is managed from a single file:
