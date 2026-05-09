@@ -54,6 +54,19 @@ Sections:
 
 ---
 
+### Netlify Redirect Rule
+
+The `public/_redirects` file is required for React Router to work correctly on
+Netlify. It must contain:
+
+```
+/*    /index.html   200
+```
+
+This prevents 404 errors when navigating directly to a route or refreshing the page.
+
+---
+
 ## Customization Guide
 
 All site content is managed from a single file:
