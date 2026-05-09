@@ -38,6 +38,22 @@ Sections:
 
 ---
 
+## Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Framework | React 18 |
+| Build Tool | Vite 4 |
+| Styling | Tailwind CSS 3 |
+| Animations | Framer Motion 10 |
+| 3D Rendering | Three.js, @react-three/fiber, @react-three/drei |
+| Routing | React Router DOM 6 |
+| Contact Form | EmailJS |
+| Timeline | React Vertical Timeline Component |
+| Deployment | Netlify |
+
+---
+
 ## Customization Guide
 
 All site content is managed from a single file:
