@@ -21,6 +21,22 @@ Live site: https://mokie-portfolio.netlify.app/
 
 ---
 
+## Customization Guide
+
+All site content is managed from a single file:
+
+```
+src/constants/index.js
+```
+
+Update the following arrays to reflect your own information:
+
+- `navLinks` — navigation items
+- `services` — about section service cards
+- `technologies` — tech stack icons shown in the 3D ball grid
+- `experiences` — work history entries for the timeline
+- `projects` — project cards with descriptions, images, and links
+
 ### Replacing Assets
 
 | Asset | Location |
