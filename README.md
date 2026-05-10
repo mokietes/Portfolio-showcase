@@ -54,6 +54,52 @@ Sections:
 
 ---
 
+## Project Structure
+
+```
+src/
+├── assets/
+│   ├── backgrounds/       # Section background images
+│   ├── company/           # Work experience company logos
+│   ├── icons/             # UI icons (menu, send, download, etc.)
+│   ├── logo/              # Site logo and logo text
+│   ├── personal/          # Profile photo
+│   ├── projects/          # Project screenshot images
+│   ├── tech/              # Technology stack icons
+│   └── index.js           # Single barrel export for all assets
+│
+├── components/
+│   ├── canvas/
+│   │   └── Ball.jsx       # Three.js floating ball with tech icon decal
+│   ├── About.jsx
+│   ├── Contact.jsx
+│   ├── Experience.jsx
+│   ├── Hero.jsx
+│   ├── Loader.jsx
+│   ├── Navbar.jsx
+│   ├── Projects.jsx
+│   ├── Tech.jsx
+│   └── index.js
+│
+├── constants/
+│   └── index.js           # All site content: nav, services, tech, experience, projects
+│
+├── hoc/
+│   └── SectionWrapper.jsx # HOC that applies scroll animations and padding to sections
+│
+├── utils/
+│   └── motion.js          # Reusable Framer Motion animation variants
+│
+├── App.jsx                # Root layout
+├── main.jsx               # ReactDOM entry point
+├── styles.js              # Shared Tailwind class strings
+└── index.css              # Global styles, custom fonts, canvas loader animation
+
+public/
+├── resume.pdf             # Resume file served directly from the domain
+└── _redirects             # Netlify SPA redirect rule
+```
+
 ### Netlify Redirect Rule
 
 The `public/_redirects` file is required for React Router to work correctly on
