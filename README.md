@@ -117,6 +117,24 @@ and [Devicons](https://devicons.github.io/devicon).
 
 Clone the repository:
 
+```bash
+git clone https://github.com/mokietes/Portfolio-showcase.git
+cd portfolio
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+The app will be available at `http://localhost:5173`.
 ## Deployment
 
 This project is configured for deployment on Netlify.
