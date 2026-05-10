@@ -100,6 +100,23 @@ public/
 └── _redirects             # Netlify SPA redirect rule
 ```
 
+---
+## Icon Credits
+
+Technology icons sourced from [CIB SVG Icons](https://svgicons.com/icon-set/cib-svg-icons)
+and [Devicons](https://devicons.github.io/devicon).
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18 or higher
+- npm 9 or higher
+
+### Installation
+
+Clone the repository:
+
 ### Netlify Redirect Rule
 
 The `public/_redirects` file is required for React Router to work correctly on
