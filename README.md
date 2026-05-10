@@ -152,6 +152,21 @@ npm run preview
 
 ## Configuration
 
+### EmailJS (Contact Form)
+
+1. Create a free account at https://www.emailjs.com
+2. Add an Email Service and connect your Gmail account
+3. Create an Email Template using these variables:
+
+```
+From: {{from_name}} ({{from_email}})
+To: {{to_name}}
+Message: {{message}}
+```
+
+4. Retrieve your Service ID, Template ID, and Public Key from the dashboard
+5. Add them as environment variables (see below)
+
 ## Deployment
 
 This project is configured for deployment on Netlify.
