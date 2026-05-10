@@ -135,6 +135,23 @@ npm run dev
 ```
 
 The app will be available at `http://localhost:5173`.
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+Preview the production build locally:
+
+```bash
+npm run preview
+```
+
+---
+
+## Configuration
+
 ## Deployment
 
 This project is configured for deployment on Netlify.
