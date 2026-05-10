@@ -117,6 +117,25 @@ and [Devicons](https://devicons.github.io/devicon).
 
 Clone the repository:
 
+## Deployment
+
+This project is configured for deployment on Netlify.
+
+### Steps
+
+1. Push the repository to GitHub
+2. Log in to Netlify and select "Import an existing project"
+3. Connect your GitHub repository
+4. Set the following build configuration:
+
+```
+Build command:   npm run build
+Publish directory: dist
+```
+
+5. Add environment variables for EmailJS under Site Settings
+6. Deploy
+
 ### Netlify Redirect Rule
 
 The `public/_redirects` file is required for React Router to work correctly on
