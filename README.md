@@ -188,6 +188,11 @@ emailjs.send(
 )
 ```
 
+On Netlify, add the same keys under:
+Site Settings → Environment Variables
+
+---
+
 ## Deployment
 
 This project is configured for deployment on Netlify.
