@@ -167,6 +167,27 @@ Message: {{message}}
 4. Retrieve your Service ID, Template ID, and Public Key from the dashboard
 5. Add them as environment variables (see below)
 
+### Environment Variables
+
+Create a `.env` file in the project root:
+
+```
+VITE_EMAILJS_SERVICE_ID=your_service_id
+VITE_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_EMAILJS_PUBLIC_KEY=your_public_key
+```
+
+Then update `src/components/Contact.jsx` to reference these variables:
+
+```js
+emailjs.send(
+  import.meta.env.VITE_EMAILJS_SERVICE_ID,
+  import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+  { ... },
+  import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+)
+```
+
 ## Deployment
 
 This project is configured for deployment on Netlify.
